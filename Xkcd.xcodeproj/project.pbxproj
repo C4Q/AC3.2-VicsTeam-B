@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		47CEA82F1DF0B35C00800A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CEA82E1DF0B35C00800A8E /* AppDelegate.swift */; };
-		47CEA8341DF0B35C00800A8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CEA8321DF0B35C00800A8E /* Main.storyboard */; };
 		47CEA8361DF0B35C00800A8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CEA8351DF0B35C00800A8E /* Assets.xcassets */; };
 		47CEA8391DF0B35C00800A8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CEA8371DF0B35C00800A8E /* LaunchScreen.storyboard */; };
 		47CEA8411DF0B57000800A8E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CEA8401DF0B57000800A8E /* DataManager.swift */; };
 		47CEA8431DF0B57E00800A8E /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CEA8421DF0B57E00800A8E /* Comic.swift */; };
 		47CEA8471DF0B8ED00800A8E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CEA8461DF0B8ED00800A8E /* APIManager.swift */; };
 		47CEA8491DF0E04600800A8E /* XkcdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CEA8481DF0E04600800A8E /* XkcdViewController.swift */; };
+		47CEA84C1DF0E5D900800A8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CEA84A1DF0E5D900800A8E /* Main.storyboard */; };
 		DE95A5E6FD3797F35B43B1D4 /* Pods_Xkcd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDA1B63163ABBE632839B48 /* Pods_Xkcd.framework */; };
 		EDFD3C151DF0C97400A57915 /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFD3C141DF0C97400A57915 /* PresentedViewController.swift */; };
 /* End PBXBuildFile section */
@@ -22,7 +22,6 @@
 /* Begin PBXFileReference section */
 		47CEA82B1DF0B35C00800A8E /* Xkcd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xkcd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CEA82E1DF0B35C00800A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47CEA8331DF0B35C00800A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47CEA8351DF0B35C00800A8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47CEA8381DF0B35C00800A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47CEA83A1DF0B35C00800A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 		47CEA8421DF0B57E00800A8E /* Comic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
 		47CEA8461DF0B8ED00800A8E /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		47CEA8481DF0E04600800A8E /* XkcdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XkcdViewController.swift; sourceTree = "<group>"; };
+		47CEA84B1DF0E5D900800A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7651B492DAE7F43A270200A8 /* Pods-Xkcd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xkcd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Xkcd/Pods-Xkcd.debug.xcconfig"; sourceTree = "<group>"; };
 		B6155FE49E751E58552A2DA2 /* Pods-Xkcd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xkcd.release.xcconfig"; path = "Pods/Target Support Files/Pods-Xkcd/Pods-Xkcd.release.xcconfig"; sourceTree = "<group>"; };
 		BFDA1B63163ABBE632839B48 /* Pods_Xkcd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xkcd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,7 +75,7 @@
 				47CEA8421DF0B57E00800A8E /* Comic.swift */,
 				47CEA8481DF0E04600800A8E /* XkcdViewController.swift */,
 				EDFD3C141DF0C97400A57915 /* PresentedViewController.swift */,
-				47CEA8321DF0B35C00800A8E /* Main.storyboard */,
+				47CEA84A1DF0E5D900800A8E /* Main.storyboard */,
 				47CEA8351DF0B35C00800A8E /* Assets.xcassets */,
 				47CEA8371DF0B35C00800A8E /* LaunchScreen.storyboard */,
 				47CEA83A1DF0B35C00800A8E /* Info.plist */,
@@ -162,9 +162,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47CEA84C1DF0E5D900800A8E /* Main.storyboard in Resources */,
 				47CEA8391DF0B35C00800A8E /* LaunchScreen.storyboard in Resources */,
 				47CEA8361DF0B35C00800A8E /* Assets.xcassets in Resources */,
-				47CEA8341DF0B35C00800A8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,20 +235,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		47CEA8321DF0B35C00800A8E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				47CEA8331DF0B35C00800A8E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		47CEA8371DF0B35C00800A8E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				47CEA8381DF0B35C00800A8E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		47CEA84A1DF0E5D900800A8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47CEA84B1DF0E5D900800A8E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

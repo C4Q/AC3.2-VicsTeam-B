@@ -13,7 +13,6 @@ var ourImage: [UIImage] = []
 var comic: [Comic] = []
 
 class XkcdViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-    @IBOutlet weak var testLabel: UILabel!
 
     let apiClient = APIManager()
     
